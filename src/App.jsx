@@ -15,6 +15,7 @@ import StatBox from "./components/StatBox";
 import CareerTimeline from "./components/CareerTimeline";
 import SkillsList from "./components/SkillsList";
 import DateTime from "./components/DateTime";
+import Contact from "./components/Contact";
 import Pinterest from "./components/Pinterest";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -63,6 +64,12 @@ function App() {
           <SkillsList />
           <h2>Social Media</h2>
           <Pinterest />
+          <h2>Contact</h2>
+          <p>
+            Let's get in touch! Reach out with questions, projects, or anything
+            you need!
+          </p>
+          <Contact />
         </Box>
         <Grid container spacing={3}>
           <Grid item xs={12}></Grid>

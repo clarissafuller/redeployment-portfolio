@@ -18,7 +18,7 @@ export default function AboutIcons() {
         justifyContent: "center",
         gap: 2,
         mt: 2,
-        flexWrap: "wrap", 
+        flexWrap: "wrap",
       }}
     >
       <DownhillSkiingIcon sx={{ fontSize: 40 }} />
